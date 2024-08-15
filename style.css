@@ -1,0 +1,615 @@
+* {
+    font-family: 'Arial';
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(210, 210, 210);
+}
+
+#body2 {
+    width: 80%;
+    margin: auto;
+}
+
+#menufull {
+    width: 100%;
+}
+
+.gradiente1 {
+    height: 20px;
+    border-color: rgb(33,100,235);
+    background: linear-gradient(90deg, rgba(33,100,235,1) 0%, rgba(0,18,54,1) 100%);
+    color: white;
+    font-family: 'Segoe UI';
+    font-size: 10px;
+    padding-top: 5px;
+    text-align: right;
+}
+
+.gradiente1 span {
+    margin-right: 10px;
+}
+
+header {
+    background-color: #141F33;
+    width: 100%;
+    height: 80px;
+    color: white;
+    margin-bottom: 30px;
+    text-align: auto;
+    align-items: center;
+    display: flex;
+    margin-bottom: 0;
+}
+
+header a {
+    font-weight: bold;
+    margin: 0;
+    padding: 20px;
+    font-size: 20px;
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+}
+
+#logo {
+    height: auto;
+    max-width: 100%;
+    width: 120px;
+    margin-bottom: 0;
+}
+
+#gradient {
+    margin-bottom: 0;
+}
+
+#menu {
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 0;
+    align-items: center;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    margin-right: 41%;
+}
+
+#menu a {
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    align-items: center;
+}
+
+#menu a:hover {
+    color: rgb(100, 185, 255);
+}
+
+#menu a:active {
+    color: rgb(88, 145, 189);
+}
+
+#slider {
+    padding: 0;
+    text-align: center;
+    margin-bottom: 70px;
+    width: 50%;
+    height: 50%;
+    margin-top: -15PX;
+    justify-content: center;
+    margin-left: 25%;
+}
+
+
+#slider .gh{
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+#welcome {
+    width: 100%;
+    height: 100%;
+    padding-left: 0;
+    margin-top: 70px;
+    margin-bottom: -30px;
+}
+
+.title {
+    width: 700px;
+}
+
+#login {
+    width: 100%;
+    min-width: 100%;
+    height: 100px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+#login h1 {
+    color: white;
+    text-align: center;
+    margin-left: 3px;
+}
+
+#login p {
+    font-family: 'Segoe UI';
+    font-size: 15px;
+    color: white;
+    text-align: left;
+    margin-left: 104px;
+}
+
+#ball {
+    width: 700px;
+    display: flex;
+    padding-left: -90px;
+    padding-top: -5px;
+}
+
+#ball hr{
+    border-radius: 20px;
+}
+
+#login .bola {
+    height: 15px;
+    width: 15px;
+    border-radius: 15px;
+    background-color: white;
+    margin: 15px;
+}
+
+#login span {
+    color: rgb(100, 185, 255);
+}
+
+.fundo1 {
+    background-color: #141F33;
+    height: 280px;
+    width: 100%;
+}
+
+#fundo4 {
+    margin-top: 500px;
+    height: 150px;
+    width: 80%;
+    margin: auto;
+    background-color: #141F33;
+    margin-bottom: -300px;
+}
+
+#cargos {
+    text-align: center;
+    display: flex;
+    font-family: 'Arial Black';
+    margin: 0 auto;
+    text-align: center;
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+#cargos a {
+    text-decoration: none;
+}
+
+#cargos img {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-radius: 15px 15px 0px 0px;
+}
+
+#cargos h3 {
+    color: white;
+    width: 200px;
+    font-size: 20px;
+    height: 40px;
+    margin-top: 5PX;
+}
+
+#cargos .cad {
+    height: 240px;
+    text-align: center;
+    align-items: center;
+    margin: 20px auto;
+    display: block;
+    background-color: #141F33;
+    border-radius: 15px;
+}
+
+.cargo {
+    width: 100%;
+    height: 200px;
+    flex-grow: 1;
+}
+
+.nome {
+    height: 40px;
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.bloco {
+    height: 50px;
+    background-color: white;
+}
+
+.bloco2 {
+    height: 300px;
+}
+
+#fundo4 {
+    background-color: #141F33;
+    width: 100%;
+    height: 130px;
+}
+
+#container1 {
+    display: flex;
+    border-radius: 15px;
+    align-items: center;
+    width: 700px;
+    height: 400px;
+    text-align: justify;
+    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.452) 5px 5px 5px;
+    background-color: white;
+    font-family: 'Segoe UI';
+    padding-top: 0;
+    margin-top: 20px;
+}
+
+
+#container1 p{
+    font-size: 11px;
+}
+
+#container1 h1 {
+    color: #2164EB;
+    padding-left: 5px;
+    font-family: 'Arial Black';
+    font-size: 30px;
+    margin-top: 25px;
+    text-align: center;
+}
+
+#container1 h3 {
+    padding-bottom: 20px;
+    padding-left: 5px;
+    text-align: center;
+}
+
+#container1 #btn {
+    border: 0;
+    border-radius: 10px;
+    background-color: #2164EB;
+    color: white;
+    height: 35px;
+    width: 180px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    display: block;
+    margin: auto;
+}
+
+#container1 a {
+    text-align: center;
+    height: 300px;
+    width: 100%;
+}
+
+#container1 #btn:hover {
+    background-color: #1b53c4;
+}
+
+#container1 #btn:active {
+    background-color: #1748aa;
+}
+
+.msg1 {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 10px;
+    font-weight: bold;
+    width: 300px;
+    margin: auto;
+    padding-top: 20px;
+    line-height: 2.0;
+    margin-bottom: -15px;
+}
+
+.msg2 {
+    padding-top: 40px;
+    color: #2164EB;
+    width: 270px;
+    font-weight: bold;
+    font-size: 10px;
+    text-align: center;
+    line-height: normal;
+    margin: auto;
+    padding-bottom: 9px;
+}
+
+section {
+    width: 350px;
+    height: 400px;
+}
+
+hr {
+    width: 90%;
+    margin: auto;
+}
+
+#imag {
+    height: 400px;
+    width: 350px;
+    background-size: cover;
+    background-image: url('assets/library2.jpg');
+    background-position: center;
+    background-blend-mode: darken;
+    border-radius: 0px 15px 15px 0px;
+}
+
+footer {
+    width: 100%;
+    background-color: #141F33;
+    margin-top: 205px;
+    text-align: center;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    color: white;
+    font-size: 10px;
+    
+}
+
+.gradiente2 {
+    border-color: rgb(33,100,235);
+    background: linear-gradient(90deg, rgba(33,100,235,1) 0%, rgba(0,18,54,1) 100%);
+    font-size: 14px;
+
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+
+footer img {
+    height: 70%;
+    max-height: 70%;
+    min-height: 60%;
+    width: 70%;
+    max-width: 70%;
+    min-width: 60%;
+}
+
+@media (max-width: 766px) {
+    #container1 {
+        margin-top: 0px;
+    }
+
+    .bloco2 {
+        margin-bottom: 250px;
+    }
+}
+
+@media (max-width: 700px) {
+    #imag {
+        display: none;  
+    } 
+
+    #container1 {
+        width: 600px;
+        width: 90%;
+    }
+
+    section {
+        width: 600px;
+    }
+
+    .msg1 {
+        width: 90%;
+        font-size: 12px;
+    }
+
+    #welcome {
+        margin-top: 85px;
+    }
+}
+
+@media (max-width: 1100) {
+    footer img {
+        width: 720px;
+        height: 152px;
+    }
+}
+
+
+    /* Cadastro */
+
+
+.fundo2 {
+    background-color: #141F33;
+    height: 1px;
+}
+
+#cadastro {
+    margin: auto;
+    border-radius: 15px;
+    display: flex;
+    height: 450px;
+    width: 85%;
+    margin-top: 170px;
+    background-color: white;
+}
+
+#cadastro_gestor {
+    margin: auto;
+    border-radius: 15px;
+    display: flex;
+    height: 520px;
+    width: 85%;
+    margin-top: 170px;
+    background-color: white;
+}
+
+#loginput {
+    width: 68%;
+    background-color: white;
+    border-radius: 0px 15px 15px 0px;
+}
+
+.cancel {
+    height: 1px;
+    width: 100%;
+}
+
+.mark {
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: rgb(215, 215, 215);
+    margin-right: 5px;
+    margin-top: 5px;
+    display: block;
+    float: right;
+}
+
+.mark button {
+    background-color: rgb(200, 200, 200);
+    border: 0;
+    border-radius: 20px;
+    width: 20px;
+    height: 20px;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.mark button:hover {
+    background-color: rgb(180, 180, 180);
+}
+
+.mark button:active {
+    background-color:rgb(160, 160, 160);
+}
+
+#loginput input {
+    border-radius: 15px;
+    height: 40px;
+    width: 100%;
+    background-color: rgb(228, 228, 228);
+    border: 0;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+#loginput h1 {
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+#loginput span {
+    color: #2164EB;
+}
+
+#loginput .cadastro2 {
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 10%;
+}
+
+#loginput .btn4 {
+    text-decoration: none;
+    width: 120px;
+    color: white;
+    display: block;
+    margin: auto;
+}
+
+#loginput .btn3 {
+    margin: auto;
+    text-decoration: none;
+    background-color: #2164EB;
+    border: 0;
+    width: 120px;
+    height: 25px;
+    text-align: center;
+    color: white;
+    border-radius: 15px;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Segoe UI';
+    display: block;
+    padding-bottom: 2px;
+    text-decoration: none;
+}
+
+#loginput .btn3:hover {
+    background-color: #1b53c4;
+}
+
+#loginput .btn3:active {
+    background-color: #1748aa;
+}
+
+.sou_adm {
+    display: flex;
+    justify-content: center;
+    height: 1px;
+}
+
+.msg3 {
+    margin-top: 10px;
+    color: #2164EB;
+    text-decoration: none;
+    font-family: 'Segoe UI';
+}
+
+.msg3:hover {
+    text-decoration: underline;
+}
+
+#imag2 {
+    background-color: #141F33;
+    border-radius: 15px 0px 0px 15px;
+    height: 100%;
+    width: 32%;
+}
+
+#imag2 img {
+    height: 90%;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.remoteness {
+    margin-top: 70px;
+}
+
+@media (max-width: 410) {
+    .cadastro {
+        height: 500px;
+    }
+
+    #logo {
+        display: none;
+    }
+}
+
+@media (max-width: 330) {
+    #logo {
+        display: none;
+    }
+}
